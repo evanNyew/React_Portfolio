@@ -1,24 +1,24 @@
-import React from 'react';
-import Hero from '../components/Hero';
-import Banner from '../components/Banner';
-import {Link} from 'react-router-dom';
-import Services from '../components/Services';
-import FeaturedRooms from '../components/FeaturedRooms'
-import Button from '../components/StyledHero'
+import React from 'react'
+import Hero from '../components/Hero'
+import Banner from '../components/Banner'
+import photo from '../images/profilephoto.JPG'
+import Information from '../components/Information'
+import FeaturedProjects from '../components/FeaturedProjects'
+
 
 export default function Home() {
     return (
-        <React.Fragment>
-            <Hero>
-                <Banner title="luxurious rooms" subtitle="deluxe room starting at $299">
-                    <Link to='/rooms' className='btn-primary'>
-                        Our rooms
-                    </Link> 
+        <>
+        <Hero>
+            <Banner title="Cheng Hao Nyew" subtitle="Software Developer">
+                    <div className='img-container '>
+                        <p><img className='pp' src={photo} alt=""></img></p>
+                    </div>
                 </Banner>
-            </Hero>
-            <Services />
-            <FeaturedRooms />
-        </React.Fragment>
-    );
+        </Hero>
+        <FeaturedProjects/>
+        <Information/>
+        </>
+    )
 }
 
