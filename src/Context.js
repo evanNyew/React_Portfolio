@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+//import items from "./data"
 import Client from './Contentful'
 
 const ProjectContext = React.createContext();
@@ -10,10 +11,29 @@ class ProjectProvider extends Component {
         loading:true 
     };
 
-    getData = async() =>{
+    getData = async () => {
         try{
             let response = await Client.getEntries({
                 content_type:"portfolio"
+            })
+            let projects = this.formatData(response.items)
+            let featuredProjects = projects.filter(project => project.featured === true);
+        
+            this.setState({
+                projects,
+                featuredProjects,
+                loading: false
+            })
+        } catch(error){
+            console.log(error);
+        }
+    }
+    /*getData = async () =>{
+        try{
+            let response = await Client.getEntries({
+                content_type:"portfolio",
+                //order: '-sys.createdAt'
+                 order: "fields.type"
             });
             let projects = this.formatData(response.items)
             let featuredProjects = projects.filter(project => project.featured === true);
@@ -26,7 +46,8 @@ class ProjectProvider extends Component {
         } catch (error){
             console.log(error);
         }
-    }
+    }*/
+    
     componentDidMount(){
         this.getData();
     }

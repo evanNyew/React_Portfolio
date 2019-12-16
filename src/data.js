@@ -48,7 +48,7 @@ export default [
       num: 1,
       status: "Done",
       featured: true,
-      description:
+      desciption:
         "A modern webpage that allows user to view, log in, comment, rating on the details of campground.",
       extras: [
         " - NodeJs",
