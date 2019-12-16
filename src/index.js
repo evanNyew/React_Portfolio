@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom'
 import {BrowserRouter as Router} from "react-router-dom"
 import App from './App'
 import * as serviceWorker from './serviceWorker'
-import {ProjectProvider} from './context'
+import {ProjectProvider} from './Context'
 
 ReactDOM.render(
     <ProjectProvider>

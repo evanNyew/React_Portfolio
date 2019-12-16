@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {ProjectContext} from '../context'
+import {ProjectContext} from '../Context'
 import Project from './Project'
 import Loading from './Loading'
 import Title from './Title'

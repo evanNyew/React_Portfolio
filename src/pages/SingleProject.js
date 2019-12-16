@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Banner from '../components/Banner'
 import {Link} from 'react-router-dom'
-import {ProjectContext} from '../context'
+import {ProjectContext} from '../Context'
 import StyledHero from '../components/StyledHero'
 import Information from '../components/Information'
 import photo from '../images/profilephoto.JPG'

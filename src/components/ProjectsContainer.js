@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectsList from './ProjectsList'
-import {withProjectConsumer} from '../context'
+import {withProjectConsumer} from '../Context'
 import Loading from './Loading'
 
 
