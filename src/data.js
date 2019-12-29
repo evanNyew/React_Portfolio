@@ -8,7 +8,7 @@ export default [
       id: "1"
     },
     fields: {
-      name: "portfolio",
+      name: "hello",
       slug: "portfolio",
       status: "Done",
       num:1,
