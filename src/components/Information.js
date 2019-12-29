@@ -19,12 +19,12 @@ export default class Service extends Component {
             {
                 icon:<FaEnvelope/>,
                 title:"Gmail",
-                link:""
+                link:"mailto:nyewch0404@gmail.com"
             },
             {
                 icon:<FaFileAlt/>,
                 title:"Resume",
-                link:""
+                link:"https://github.com/chenghaonyew/React_Portfolio/blob/master/src/images/NyewChengHao_Resume.pdf"
             }
         ]
     };
