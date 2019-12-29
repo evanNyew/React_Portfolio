@@ -1,6 +1,9 @@
 import campGround from "./images/campground.jpg";
 import powerApps from "./images/PowerApps.jpg";
 import inProgress from "./images/inProgress.jpg";
+import portfolio from "./images/portfolio.png";
+import portfolio2 from "./images/portfolio2.png";
+import campGround2 from "./images/campground2.png";
 
 export default [
   {
@@ -24,14 +27,14 @@ export default [
         {
           fields: {
             file: {
-              url: inProgress
+              url: portfolio
             }
           }
         },
         {
           fields: {
             file: {
-              url: inProgress
+              url: portfolio2
             }
           }
         },
@@ -68,7 +71,7 @@ export default [
         {
           fields: {
             file: {
-              url: inProgress
+              url: campGround2
             }
           }
         },
