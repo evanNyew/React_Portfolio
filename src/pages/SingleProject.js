@@ -32,7 +32,8 @@ export default class SingleProject extends Component {
             description, 
             status, 
             extras, 
-            images
+            images,
+            link
         } = project
         const[mainImg,...defaultImg] = images
         return (
@@ -58,6 +59,7 @@ export default class SingleProject extends Component {
                     <article className='info'>
                         <h3>info</h3>
                         <h6>Project status: {status}</h6>
+                        <h6>Link: <a href={link}>{link}</a></h6>
                     </article>
                 </div>
             </section>
