@@ -36,9 +36,9 @@ export default class Service extends Component {
                     {this.state.services.map((item, index) =>{
                         return <article key={index} className='service'>
                             <span>{item.icon}</span>     
-                            <Link to='{link}' className='btn-primary'>
+                            <a href={item.link} className='btn-primary'>
                                 {item.title}
-                            </Link>
+                            </a>
                         </article>
                     })}
                 </div>
