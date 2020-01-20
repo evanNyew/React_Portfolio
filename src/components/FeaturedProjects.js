@@ -15,7 +15,7 @@ export default class FeaturedProjects extends Component {
             <>
             <section className='featured-rooms'>
                 <Title title="Introduction"></Title>
-                <h4 className='introduction'> Hi, I'm Nyew, a sophomore majoring in computer science passionate about all things computer science, particularly software and web development.     </h4>
+                <h4 className='introduction'> Hi, I'm Nyew, a junior majoring in computer science passionate about all things computer science, particularly software and web development.     </h4>
                 <h4 className='introduction'> I'm currently working on a second hand trading application which are going to benefits the student of Minnesota with second hand items trading. </h4>
                 <h4 className='introduction last'> Contact me for internships and research opportunities for Summer 2020! </h4>
                 <Title title='featured projects'/>
