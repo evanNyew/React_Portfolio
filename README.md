@@ -1,3 +1,6 @@
+# React Resort Project
+Click [**HERE**](https://nyew-portfolio.netlify.app/) to view the project online!
+<br>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
